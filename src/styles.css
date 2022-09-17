@@ -93,3 +93,17 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .yoga-img,
+  .weather-img,
+  .yogurt-img {
+    display: none;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 18px;
+  }
+}

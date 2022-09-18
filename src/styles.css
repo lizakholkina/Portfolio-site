@@ -93,6 +93,10 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.container h2,
+p {
+  text-align: left;
+}
 
 @media (max-width: 576px) {
   .yoga-img,
@@ -101,9 +105,18 @@ p {
     display: none;
   }
   h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
     font-size: 32px;
+    line-height: 1.5;
   }
   p {
     font-size: 18px;
+    text-align: center;
+  }
+  .container h2 {
+    text-align: center;
   }
 }

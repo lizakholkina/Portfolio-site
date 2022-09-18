@@ -119,4 +119,9 @@ p {
   .container h2 {
     text-align: center;
   }
+  .site-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
